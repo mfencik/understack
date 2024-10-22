@@ -39,6 +39,9 @@ conf:
       # availability zones won't work.
       default_availability_zones: ""
 
+secrets:
+  nautobot:
+    nautobot_token: nautobot-token
 # disable the neutron-ironic-agent from loading a non-existent config
 pod:
   use_fqdn:
